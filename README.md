@@ -2,7 +2,7 @@
 This repo is designed to calculate the cross section of ttbar production from ee collision. It is intended to be run on lxplus.cern.ch. Credit to Zhan Li from ihep for his distribution.
 
 ### First step: Install QQbarThreshold
-source mathe.sh
+‘source mathe.sh’
 to set Mathematica environment.
 Then follow the instructions on QQbarthreshold webpage (https://qqbarthreshold.hepforge.org/doc/v2/) to install it.
 version: 2.2.1
