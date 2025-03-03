@@ -44,3 +44,8 @@ If after checking you are sure that you have all result files:
 `cd ./test/submit/result`
 `./result.py`
 Then you can have a full results in  ./test/submit/result/fullresult.txt
+
+### Examples
+step0001 was generated with a scan step of 0.001 GeV, while step0005 was generated with a scan step of 0.005 GeV.
+
+To change the step and range of scan, just modify the lines `for delmass in np.arange(-0.05,0.05,0.001):` and `realmass=('%.4f' % (171.5+delmass))` in py.py.
