@@ -1,4 +1,4 @@
-###First step: Install QQbarThreshold
+### First step: Install QQbarThreshold
 source mathe.sh
 to set Mathematica environment.
 Then follow the instructions on QQbarthreshold webpage (https://qqbarthreshold.hepforge.org/doc/v2/) to install it.
