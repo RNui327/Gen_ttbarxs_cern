@@ -1,0 +1,26 @@
+# This is the actual shell script that runs
+executable = /afs/cern.ch/user/l/linyu/private/gen_ttbarxs_cern-main/step0001/submit/run_mass171.5060.sh
+#arguments = /afs/cern.ch/user/z/zhan/private/qqbarthreshold/myls/generate/width/LSew1/generateISRLS_1test.m
+#arguments = /afs/cern.ch/user/z/zhan/private/qqbarthreshold/qqbarth/share/QQbar_threshold/grids/ttbar_grid.tsv /afs/cern.ch/user/z/zhan/private/qqbarthreshold/qqbarth/lib/
+# The job keeps the environmental variables of the shell from which you submit
+#getenv = True
+universe = vanilla
+#  Setting the priority high
++JobFlavour = "nextweek"
+Priority        = +20
+#  Specifies the type of machine.
+#Requirements    = (Arch == "CentOS7")
+#  You can also specify the node on which it runs, if you want
+#Requirements    = ( (Arch == "INTEL" || Arch == "X86_64") &&  Machine == "ascwrk2.hep.anl.gov")
+#  The following files will be written out in the directory from which you submit the job
+log = log/run_mass171.5060.log
+#  The next two will be written out at the end of the job; they are stdout and stderr
+output = output/run_mass171.5060.out
+error = error/run_mass171.5060.err
+#  Ask that you transfer any file that you create in the "top directory" of the job
+should_transfer_files = YES
+#when_to_transfer_output = ON_EXIT_OR_EVICT
+#  queue the job.
+queue 1
+#  more than once if you want
+# queue 14
