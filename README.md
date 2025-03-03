@@ -9,7 +9,7 @@ version: 2.2.1
 
 ### Generate script & submit jobs
 To generate the script to calculate xs of ttbar:
-./py.py --filepath /path/to/dir --width 1.33 --alphas 0.1184 --cepcls 1.0
+`./py.py --filepath /path/to/dir --width 1.33 --alphas 0.1184 --cepcls 1.0`
 default filepath: ./test
 default width: 1.33
 default alphas: 0.1184
